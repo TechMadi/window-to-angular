@@ -2,26 +2,73 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.6.
 
-## Development server
+# Prerequisites
+It would be good to have some  experiences in :-
+- HTML and Css
+- Javascript  / Typescript 
+- A sample  landing
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Installation 
+Learn about installation  on the [documentation](https://angular.dev/installation)
 
-## Build
+`npm install -g @angular/cli`
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+After  installing check the version of angular to be  sure
 
-## Running unit tests
+```console
+ng version
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Currently we are at  `Angular 19` 
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Components 
+Components are the building blocks of  angular. For each  component generated you get a 
+- Typescript file 
+- Html file ( Template)
+- Styling File
+- Spec file  ( Testing)
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+To generate a  component run 
+`ng g c componentName`
+
+Read More about [components](https://angular.dev/guide/components)
+
+## Routing 
+Routing is like a compass   in Angular 
+Routing is handled my `RoutingModule`
+
+``` html
+<!-- app.component.html -->
+<router-outlet></router-outlet>
+```
+
+Router Outlet is what load the  routes written in the  `app.component.ts` 
+
+
+Normal routing
+ ``` ts 
+ {
+    path: string,
+    component:ComponentName
+ }
+ ```
+ Default Redirecting
+ ```ts 
+ {
+    path:string
+    pathMatch: string 
+    redirectUrl:string
+ }
+ ```
+
+Page Not Found
+ ```ts 
+{
+    path:"**",
+    component:ComponentName
+}
+ ```
