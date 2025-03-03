@@ -4,24 +4,62 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 # Prerequisites
 It would be good to have some  experiences in :-
-- HTML and Css
-- Javascript  / Typescript 
-- A sample  landing
+- Project Set up
+- Component Generation 
+- Routing
+
+
+#
+
+## Directives
+Extended HTML attributes with  `ng-` appended to them 
 
 
 
-## Installation 
-Learn about installation  on the [documentation](https://angular.dev/installation)
 
-`npm install -g @angular/cli`
 
-After  installing check the version of angular to be  sure
 
-```console
-ng version
+```  ts
+/**
+* Structural  Directive  - Changes structure of an obje
+* Attribute Directive  - adds  or  removes DOM elements.
+**/
+
 ```
 
-Currently we are at  `Angular 19` 
+## Structural Directives 
+NgIf - if   statement
+
+NgFor - for  loop
+
+NgSwitch- Switch Case
+
+
+### Code 
+
+
+## Attributive Directives
+NgClass
+NgStyle
+NgModel - binding values in a form 
+
+
+
+### code
+
+
+# Forms 
+Two main types of forms :- 
+Template Driven Forms
+Reactive Forms
+
+# Template Driven Forms
+
+# Reactive Driven Forms
+FormGroup 
+FormControl 
+
+FormArray 
 
 
 ## Components 
@@ -72,3 +110,4 @@ Page Not Found
     component:ComponentName
 }
  ```
+
