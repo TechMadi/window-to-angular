@@ -1,0 +1,12 @@
+<!-- @for (user of users; track $index) {
+<app-user-details [userDetails]="user"></app-user-details>
+} -->
+
+<div class="user-container">
+	@for (user of users; track $index) {
+	<div class="user-preview">
+		<h2>{{ user.name }}</h2>
+		<button (click)="viewDetails(user.id)">View</button>
+	</div>
+	}
+</div>

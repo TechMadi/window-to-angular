@@ -1,7 +1,8 @@
 import { Routes } from "@angular/router";
-import { PictureComponent } from "./picture/picture.component";
-import { OnionsComponent } from "./onions/onions.component";
+
 import { PageNotFoundComponent } from "./page-not-found/page-not-found.component";
+import { AllUsersComponent } from "./all-users/all-users.component";
+import { UserDetailsComponent } from "./user-details/user-details.component";
 
 /**
  * path:where are you going
@@ -10,16 +11,11 @@ import { PageNotFoundComponent } from "./page-not-found/page-not-found.component
 export const routes: Routes = [
 	{
 		path: "",
-		redirectTo: "onions",
-		pathMatch: "full",
+		component: AllUsersComponent,
 	},
 	{
-		path: "picture",
-		component: PictureComponent,
-	},
-	{
-		path: "onions",
-		component: OnionsComponent,
+		path: ":id",
+		component: UserDetailsComponent,
 	},
 	{
 		path: "**",

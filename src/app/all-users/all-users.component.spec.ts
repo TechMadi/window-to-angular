@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { OnionsComponent } from './onions.component';
+import { AllUsersComponent } from './all-users.component';
 
-describe('OnionsComponent', () => {
-  let component: OnionsComponent;
-  let fixture: ComponentFixture<OnionsComponent>;
+describe('AllUsersComponent', () => {
+  let component: AllUsersComponent;
+  let fixture: ComponentFixture<AllUsersComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [OnionsComponent]
+      imports: [AllUsersComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(OnionsComponent);
+    fixture = TestBed.createComponent(AllUsersComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

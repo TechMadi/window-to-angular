@@ -1,0 +1,36 @@
+
+
+
+.user-container{
+     display: flex;
+     flex-wrap: wrap;
+     gap: 1rem;
+
+    .user-preview{
+    margin:1rem 1rem;
+     display: flex;
+     flex-direction: column;
+    width: 40%;
+     padding: 2rem;
+      border: 1px solid  rgba(151, 151, 151, 0.172);
+
+
+    button{
+         width: fit-content;
+         border-radius: 3rem;
+         color:white;
+         background: green;
+        border:2px solid green ;
+        padding: 1rem; 
+         &:focus{
+           outline: rgb(1, 45, 1);
+         }
+         &:hover{
+            background-color: rgb(2, 34, 2);
+            pointer-events: curs;
+         }
+
+    }
+
+}
+}
