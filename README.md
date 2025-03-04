@@ -2,6 +2,19 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.6.
 
+
+# Roles  in Web Dev 
+- Fullstack 
+- Frontend Engineer
+   - We are here 
+   - UI, Data Consuming , 
+- Backend Engineer 
+- Devops 
+   - SRE- Site Realibity Engineer 
+   - QA - Quality Assurance Engineer 
+   - General Devops
+
+
 # Prerequisites
 It would be good to have some  experiences in :-
 - Project Set up
@@ -9,28 +22,24 @@ It would be good to have some  experiences in :-
 - Routing
 
 
-#
 
 ## Directives
 Extended HTML attributes with  `ng-` appended to them 
 
 
 
-
-
-
 ```  ts
 /**
-* Structural  Directive  - Changes structure of an obje
+* Structural  Directive  - Changes structure of an object
 * Attribute Directive  - adds  or  removes DOM elements.
 **/
 
 ```
 
-## Structural Directives 
+## Structural Directives - unajengwa aje 
 NgIf - if   statement
 
-NgFor - for  loop
+NgFor - for  loop 
 
 NgSwitch- Switch Case
 
@@ -38,7 +47,7 @@ NgSwitch- Switch Case
 ### Code 
 
 
-## Attributive Directives
+## Attributive Directives - how you look 
 NgClass
 NgStyle
 NgModel - binding values in a form 

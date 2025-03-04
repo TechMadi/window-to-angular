@@ -1,1 +1,22 @@
-<p>onions works!</p>
+<!-- 
+ @if ; *ngif -->
+
+@if(status === 'Complete'){
+<h1 class="one">Hey I am {{ status }}</h1>
+}@else if (status === 'In Progress') {
+<h2>Hey I am two</h2>
+} @else {
+<h3 class="three">Hey I am 3</h3>
+}
+
+<!-- ng Style & Ng Class -->
+<h2>Hey I am two</h2>
+
+<!-- @for -->
+
+<!--  one     of   many       location -->
+@for (people of peoples; track $index) {
+<div>
+	{{ people }}
+</div>
+}
